@@ -46,4 +46,4 @@ app.use("*", (req, res, next) => {
     res.send("Hello World");
     next();
 });
-//returns hello world for req unless it an already defined API above
+//returns hello world for every req unless its an already defined API above
